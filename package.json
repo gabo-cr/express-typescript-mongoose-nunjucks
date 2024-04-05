@@ -1,0 +1,36 @@
+{
+  "name": "express-typescript-mongoose-nunjucks",
+  "version": "1.0.0",
+  "description": "Basic skeleton for an Express.js app with TypeScript, Mongoose, and Nunjucks.",
+  "main": "app.ts",
+  "scripts": {
+    "start": "ts-node src/app.ts",
+    "build": "tsc",
+    "serve": "node dist/app.js"
+  },
+  "keywords": [
+    "express.js",
+    "typescript",
+    "nunjucks",
+    "mongoose"
+  ],
+  "author": "Gabriel Chávez Riera",
+  "license": "ISC",
+  "dependencies": {
+    "@types/http-errors": "^2.0.4",
+    "cross-env": "^7.0.3",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "helmet": "^7.1.0",
+    "http-errors": "^2.0.0",
+    "mongoose": "^8.3.0",
+    "nunjucks": "^3.2.4"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/node": "^20.12.4",
+    "@types/nunjucks": "^3.2.6",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.3"
+  }
+}
